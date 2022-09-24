@@ -87,11 +87,17 @@
   width: 100px;
   height: 100px;
   top: -60px;
-  left: -40px;
+  left: -8px;
   z-index: -1;
   border: 2px solid var(--white);
   border-radius: 50%;
   transition: background ease-in-out .3s;
+}
+
+@media (min-width: 700px) {
+  .button::before {
+    left: -40px;
+  }
 }
 
 .button:hover::before {
@@ -129,6 +135,7 @@
 
 .header__title {
   margin: 0;
+  margin-bottom: 60px;
   padding: 20px 0 20px;
   font-size: var(--font-size-24);
   font-weight: var(--font-bold);
@@ -145,8 +152,6 @@
     font-size: var(--font-size-42);
   }
 }
-
-
 
 .social-list {
   display: grid;
