@@ -131,6 +131,7 @@
   margin: 0;
   padding: 20px 0 20px;
   font-size: var(--font-size-24);
+  font-weight: var(--font-bold);
 }
 
 @media (min-width: 700px) {
