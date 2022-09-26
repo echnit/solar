@@ -230,3 +230,55 @@
   max-width: 100%;
   height: auto;
 }
+
+/* rates */
+
+.rates__container {
+  margin-top: 50px;
+}
+
+@media (min-width: 992px) {
+  .rates__container {
+    margin-top: 150px;
+  }
+}
+
+
+
+.rates__wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 89px;
+  margin-top: 30px;
+  color: var(--black);
+}
+
+@media (min-width: 992px) {
+  .rates__wrap {
+    margin-top: 60px;
+  }
+}
+
+.rates__title {
+  font-size: var(--font-size-24);
+  text-transform: uppercase;
+  color: var(--gray);
+}
+
+.rates__description {
+  height: 700px;
+  background: url('/images/rates-bg.jpg') 0 225px no-repeat;
+}
+
+@media (min-width: 992px) {
+  .rates__description {
+    height: 700px;
+    background: url('/images/rates-bg.jpg') 0 175px no-repeat;
+  }
+}
+
+.rates__description-text {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-bold);
+  line-height: var(--line-heigth);
+}
